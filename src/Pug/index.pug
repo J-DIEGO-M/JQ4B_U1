@@ -1,0 +1,17 @@
+doctype html
+html
+    head 
+        title Ejemplo Pug
+    body
+        h1 Encabezado
+        p.alert.
+            !Hola 
+            mundo
+            como 
+            Estas
+        ol
+            each item in ["Hola", "Que","Hace","Opción n"]
+                li #{item} 
+        include condiciones
+        include tabla
+    

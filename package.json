@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch" : "sass -w ./SCSS/estilos.scss ./CSS/estilos.css",
+    "pugcmd": "pug -w ./Pug/index.pug -o ./html -P",
+    "pug": "pug -w ./src/Pug/index.pug -o ./src/html -P"
+
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "description": ""
+}
